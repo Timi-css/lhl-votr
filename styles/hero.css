@@ -1,0 +1,52 @@
+/* HEERO SECTION */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5em;
+  place-items: center;
+  justify-content: center;
+}
+
+.hero-image-box {
+  padding: 2em;
+}
+
+.hero-image-box img {
+  width: 50em;
+}
+
+.hero-text-box {
+  padding: 2em;
+}
+
+.hero-header {
+  font-size: 40px;
+  line-height: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.hero-description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 4em;
+}
+
+.cta-btn {
+  background-color: #662d91;
+  color: #fff;
+  font-size: 1.8em;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  border: 2px solid #662d91;
+  color: #662d91;
+  font-size: 1.8em;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 0.3s;
+}

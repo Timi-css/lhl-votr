@@ -1,0 +1,65 @@
+/* PRIMARY: #662d91
+
+- TINTS:
+- SHADES: #f4f1f8
+- ACCENTS:
+- GREYS: #555 #333
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.results-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  text-align: center;
+}
+.results-header {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #662d91;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-name {
+  background-color: #f4f1f8;
+  font-size: 18px;
+  width: 600px;
+  height: 80px;
+  align-items: center;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.result {
+  background-color: #662d91;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+}

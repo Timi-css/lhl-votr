@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Votr</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google fonts (Roboto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!-- Nav CSS -->
+  <link rel="stylesheet" href="/styles/nav.css">
+  <!-- Footer CSS -->
+  <link rel="stylesheet" href="/styles/footer.css">
+  <!-- Results.CSS -->
+  <link rel="stylesheet" href="/styles/results.css">
+
+</head>
+
+<body>
+
+  <!-- Top Nav bar -->
+  <header class="main-header">
+    <a href="/"><img src="/media/Votr Logo.png" class="logo"></img></a>
+    <div class="main-nav-container">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="/">Home</a></li>
+        <li><a class="main-nav-link" href="/polls">Polls</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+
+  <!-- RESULTS SECTION -->
+  <section class="results-section">
+    <!-- <h2 class="results-header">Activity 1 it is!!! &#128516</h2> -->
+    <div class="activity">
+      <span class="activity-name">
+        <%= firstChoice%> <%= firstPoints%>
+      </span>
+
+      <span class="activity-name">
+        <%= secondChoice %>  <%= secondPoints%>
+      </span>
+
+      <span class="activity-name">
+        <%= thirdChoice %> <%= thirdPoints%>
+      </span>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="social-box">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <ul class="footer-list">
+      <li><a class="footer-link" href="/views/index.ejs">Home</a></li>
+      <li><a class="footer-link" href="/views/polls.ejs">Polls</a></li>
+      <!-- <li><a class="footer-cta" href="/Votr/views/polls.html">Create New Poll</a></li> -->
+    </ul>
+    <p class="copyright"> Copyright Votr @ 2022</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+/* NAV SECTION */
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #000;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #662d91;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Votr</title>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google fonts (Roboto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!-- Nav CSS -->
+  <link rel="stylesheet" href="/styles/nav.css">
+  <!-- Hero CSS -->
+  <link rel="stylesheet" href="/styles/hero.css">
+  <!-- Footer CSS -->
+  <link rel="stylesheet" href="/styles/footer.css">
+  <!-- Polls CSS -->
+  <link rel="stylesheet" href="/styles/polls.css">
+
+</head>
+
+<body>
+  <header class="main-header">
+    <!-- Top Nav bar -->
+    <a href="/"><img src="/media/Votr Logo.png" class="logo"></img></a>
+    <nav class="main-nav">
+      <div class="main-nav-container">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="/">Home</a></li>
+          <li><a class="main-nav-link" href="/polls">Polls</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Polls Form -->
+  <section class="form-section">
+    <div class="form-container">
+
+
+      <form class="form" id="form" action="/polls" method="POST">
+
+        <input class="activity" type="text" name="activity" placeholder="Activity">
+        <textarea class="activity-description" name="description" placeholder="Enter activity description"></textarea>
+        <input class="user-email" type="text" name="email" placeholder="Email">
+        <input class="activity" type="text" name="choiceOne" placeholder="First Choice">
+        <input class="activity" type="text" name="choiceTwo" placeholder="Second Choice">
+        <input class="activity" type="text" name="choiceThree" placeholder="Third Choice">
+        <div class="button-container">
+          <button class="submit">Submit</button>
+        </div>
+
+      </form>
+
+
+    </div>
+    <div class="polls-image-box">
+      <img class="polls-image" src="/media/polls-image.svg" alt="Statistics image">
+
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="social-box">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <ul class="footer-list">
+      <li><a class="footer-link" href="/">Home</a></li>
+      <li><a class="footer-link" href="/polls">Polls</a></li>
+      <!-- <li><a class="footer-cta" href="/Votr/views/polls.html">Create New Poll</a></li> -->
+    </ul>
+    <p class="copyright"> Copyright Votr @ 2022</p>
+  </footer>
+
+</body>
+
+</html>
